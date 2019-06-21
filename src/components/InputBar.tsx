@@ -1,13 +1,31 @@
-import React, { Props } from "react";
+import React from "react";
 
 const styles = {
-  width: "100%"
+  wrapper: {
+    //paddingLeft: 200,
+    //paddingRight: 200
+  },
+  inputBar: {
+    width: "60%",
+    height: "56px",
+    position: "relative" as "relative",
+    borderRadius: "4px",
+    fontSize: "16px",
+    fontWeight: 400,
+    border: "none",
+    backgroundColor: "#D9F7FA",
+    lineHeight: "normal"
+  }
 };
 
 const InputBar = () => {
   return (
-    <div>
-      <input type="text" style={styles} placeholder="Type Anything..." />
+    <div style={styles.wrapper}>
+      <input
+        type="text"
+        style={styles.inputBar}
+        placeholder="Type Anything..."
+      />
     </div>
   );
 };

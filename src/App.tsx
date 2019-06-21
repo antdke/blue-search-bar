@@ -1,11 +1,18 @@
 import React from "react";
 import InputBar from "./components/InputBar";
-import "./App.css";
+import Headline from "./components/Headline";
+
+const appStyle = {
+  textAlign: "center" as "center",
+  margin: "auto",
+  display: "block",
+  padding: "275px 0"
+};
 
 const App: React.FC = () => {
   return (
-    <div className="App">
-      <h1>Search Bar</h1>
+    <div style={appStyle}>
+      <Headline />
       <InputBar />
     </div>
   );
