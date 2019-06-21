@@ -11,10 +11,8 @@ const styles = {
     borderRadius: "4px",
     fontSize: "16px",
     outline: "none",
-    fontWeight: 400,
     border: "none",
     backgroundColor: "#D9F7FA",
-    lineHeight: "normal",
     paddingLeft: "15px",
     boxShadow: "4px 4px 20px 0px #ededed"
   }

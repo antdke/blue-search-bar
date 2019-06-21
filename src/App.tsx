@@ -5,9 +5,10 @@ import Headline from "./components/Headline";
 const appStyle = {
   textAlign: "center" as "center",
   margin: "auto",
-  display: "block",
   padding: "230px 0",
-  width: "90%"
+  width: "100%",
+  height: "auto",
+  backgroundColor: "transparent"
 };
 
 const App: React.FC = () => {
