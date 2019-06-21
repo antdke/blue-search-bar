@@ -2,11 +2,11 @@ import React from "react";
 
 const styles = {
   wrapper: {
-    paddingLeft: 200,
-    paddingRight: 200
+    //paddingLeft: 200,
+    //paddingRight: 200
   },
   inputBar: {
-    width: "100%",
+    width: "60%",
     height: "56px",
     position: "relative" as "relative",
     borderRadius: "4px",
