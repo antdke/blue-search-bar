@@ -2,8 +2,7 @@ import React from "react";
 
 const styles = {
   wrapper: {
-    //paddingLeft: 200,
-    //paddingRight: 200
+    paddingTop: "10px"
   },
   inputBar: {
     width: "60%",
@@ -11,10 +10,13 @@ const styles = {
     position: "relative" as "relative",
     borderRadius: "4px",
     fontSize: "16px",
+    outline: "none",
     fontWeight: 400,
     border: "none",
     backgroundColor: "#D9F7FA",
-    lineHeight: "normal"
+    lineHeight: "normal",
+    paddingLeft: "15px",
+    boxShadow: "4px 4px 20px 0px #ededed"
   }
 };
 
