@@ -6,7 +6,8 @@ const appStyle = {
   textAlign: "center" as "center",
   margin: "auto",
   display: "block",
-  padding: "275px 0"
+  padding: "230px 0",
+  width: "90%"
 };
 
 const App: React.FC = () => {
