@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 
+// styling
 const styles = {
   wrapper: {
     paddingTop: "10px"
@@ -12,6 +13,7 @@ const styles = {
     fontSize: "16px",
     outline: "none",
     border: "none",
+    color: "white",
     backgroundColor: "#1387fa",
     paddingLeft: "15px"
     //boxShadow: "0px 3px 5px 0px #d9d9d9"
@@ -19,13 +21,17 @@ const styles = {
 };
 
 const InputBar = () => {
+  const [searchValue, setValue] = useState("");
+
   return (
     <div style={styles.wrapper}>
       <input
         type="text"
         style={styles.inputBar}
         placeholder="Type Anything..."
+        onChange={e => setValue(e.target.value)}
       />
+      <h3>{searchValue}</h3>
     </div>
   );
 };
