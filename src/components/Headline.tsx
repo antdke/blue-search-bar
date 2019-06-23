@@ -2,7 +2,7 @@ import React from "react";
 
 const headlineStyles = {
   fontSize: "80px",
-  color: "#a7d3ff"
+  color: "#2090ff"
 };
 const Headline = () => {
   return (
