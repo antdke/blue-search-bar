@@ -9,7 +9,6 @@ const containerStyle = {
   padding: "230px 0",
   width: "100%",
   height: "auto"
-  //backgroundColor: "transparent"
 };
 
 const Container = () => {
