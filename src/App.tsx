@@ -1,8 +1,7 @@
 import React from "react";
-import moduleName from "module";
 import Container from "./components/Container";
 
-document.body.style.backgroundColor = "#5badff";
+document.body.style.backgroundColor = "#0d73d8";
 
 const App: React.FC = () => {
   return <Container />;

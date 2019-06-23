@@ -12,9 +12,9 @@ const styles = {
     fontSize: "16px",
     outline: "none",
     border: "none",
-    backgroundColor: "#D9F7FA",
-    paddingLeft: "15px",
-    boxShadow: "4px 4px 20px 0px #d9d9d9"
+    backgroundColor: "#1387fa",
+    paddingLeft: "15px"
+    //boxShadow: "0px 3px 5px 0px #d9d9d9"
   }
 };
 
