@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, FormEvent } from "react";
 
 // styling
 const styles = {
@@ -23,14 +23,31 @@ const styles = {
 const InputBar = () => {
   const [searchValue, setValue] = useState("");
 
+  function openWeb(searchValue: any) {
+    //window.open("https://www.google.com");
+  }
+
+  // TODO: Find a way to insert a variable into url
+  function handleClick(event: any) {
+    window.open("https://www.google.com/images");
+  }
+
   return (
     <div style={styles.wrapper}>
-      <input
-        type="text"
-        style={styles.inputBar}
-        placeholder="Type Anything..."
-        onChange={e => setValue(e.target.value)}
-      />
+      <form>
+        <input
+          type="text"
+          style={styles.inputBar}
+          placeholder="Type Anything..."
+          onChange={event => setValue(event.target.value)}
+        />
+        <button
+          style={{ display: "none" }}
+          onClick={() => handleClick(searchValue)}
+        >
+          Submit
+        </button>
+      </form>
       <h3>{searchValue}</h3>
     </div>
   );
