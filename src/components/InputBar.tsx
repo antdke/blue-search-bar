@@ -1,4 +1,4 @@
-import React, { useState, FormEvent } from "react";
+import React, { useState } from "react";
 
 // styling
 const styles = {
@@ -48,7 +48,7 @@ const InputBar = () => {
           Submit
         </button>
       </form>
-      <h3>{searchValue}</h3>
+      {/* <h3>{searchValue}</h3> */}
     </div>
   );
 };
